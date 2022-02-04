@@ -1,5 +1,7 @@
 # American Presidential Speeches and Job Approval Ratings
 
+https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2009/01/20/crowdspeech460.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=a3779e4f4b2cb9a7a7005f178f2815f2
+
 ## Overview
 
 * Explore the relationship between Presidential Speeches and a President’s job approval ratings.
@@ -43,30 +45,40 @@
 
 ![image](https://user-images.githubusercontent.com/77416319/152244088-9a7b6020-931c-494c-bbb4-f3ad84121e97.png)
 
-
+* Training Accuracy: 79%
+* Testing Accuracy: 72%
 
 ## Initial Model: Decision Tree
 
 ![image](https://user-images.githubusercontent.com/77416319/152245698-d74fbb37-e0a0-4818-8900-52eac1a31133.png)
 
-
+* Training Accuracy: 100%
+* Testing Accuracy: 69%
 
 ## Hyperparameter Tuning using GridSearch: KNN
 
 ![image](https://user-images.githubusercontent.com/77416319/152246424-1bfa39ce-79a9-4f54-9c9d-091f094e28ea.png)
 
-
+* Training Accuracy: 73%
+* Testing Accuracy: 76%
 
 ## Hyperparameter Tuning using GridSearch: Decision Tree
 
 ![image](https://user-images.githubusercontent.com/77416319/152246569-2b39fb76-87de-4d82-b367-36c1938aa285.png)
 
+* Training Accuracy: 68%
+* Testing Accuracy: 72%
+
+# Final Model
+
+* Based on the results from performing a GridSearch on the selected models, K-Nearest Neighbors produced the outcome when predicting high job approval ratings based on the speech transcripts. Its training accuracy is 73%, while its testing accuracy is 76%, which indicates that the model is appropriately fitted to the data. 
 
 # Word Associations
 
 * Each President in combined dataset.
 * Party affiliation (Democrat/Republican).
 * High and low job approval ratings.
+* Note: the lemmatization of the word 'us' is 'u'. For statistical purposes 'u' has not been taken out of the bag of words because of its high frequency among the speeches in this dataset and its relevance among the other words.
 
 
 # Top 25 Words
@@ -126,9 +138,9 @@
 * KNN - best model to predict high approval ratings using speech transcripts.
 * Most frequent words throughout speeches: People, American, America, Year; terms used to bring people together.
 * Words that are more frequent in high than low job approval ratings in top 25: Must, Child. Life.
-* Low job approval ratings: Country, Job, Us. 
+* Words that are more frequent in low than high job approval ratings: Country, Job, Us. 
 * Emphasizing children and communicating urgency - leads to high job approval ratings.
-* Terms associated with low job approval ratings - used to attempt to bring people together and emphasize the economy; may   negatively affect job approval ratings.
+* Terms associated with low job approval ratings - used to attempt to bring people together and emphasize the economy; not enough to gain favorable rating.
 
 
 ## Next Steps
@@ -144,7 +156,7 @@
 
 
 
-
+https://cdn.cnn.com/cnnnext/dam/assets/201211111910-01-barack-obama-2009-inauguration-01-20-2009-full-169.jpg
 
 
 
