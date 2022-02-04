@@ -62,13 +62,15 @@
 ![image](https://user-images.githubusercontent.com/77416319/152246569-2b39fb76-87de-4d82-b367-36c1938aa285.png)
 
 
-## Word Associations
+# Word Associations
 
 * Each President in combined dataset.
 * Party affiliation (Democrat/Republican).
 * High and low job approval ratings.
 
+
 # Top 25 Words
+
 
 ## President Clinton Word Frequency
 
@@ -96,15 +98,48 @@
 
 ## Democrat Word Frequency
 
+![image](https://user-images.githubusercontent.com/77416319/152268337-4cf39516-2179-46c8-8686-df451f4b2889.png)
+
+![image](https://user-images.githubusercontent.com/77416319/152268429-3a63a262-3ed1-4a95-abee-f9565f1cbce0.png)
+
 ## Republican Word Frequency
+
+![image](https://user-images.githubusercontent.com/77416319/152268477-f85bd096-e32c-4801-ab1e-acb354613c35.png)
+
+![image](https://user-images.githubusercontent.com/77416319/152268533-1d75d9d9-fbf8-451c-87d9-4e1043b3e25c.png)
 
 ## High Job Approval Rating Word Frequency
 
+![image](https://user-images.githubusercontent.com/77416319/152268569-742adc80-abbd-4ea4-8351-dcbcf71b5835.png)
+
+![image](https://user-images.githubusercontent.com/77416319/152268645-18993f49-ba59-4b88-8e8f-7061046d8a00.png)
+
 ## Low Job Approval Rating Word Frequency
 
+![image](https://user-images.githubusercontent.com/77416319/152268709-38f35140-891e-495e-9edd-be3facfac8af.png)
+
+![image](https://user-images.githubusercontent.com/77416319/152268793-8c38caff-d036-42c2-9f93-84fe94008e08.png)
 
 
+## Conclusion
 
+* KNN - best model to predict high approval ratings using speech transcripts.
+* Most frequent words throughout speeches: People, American, America, Year; terms used to bring people together.
+* Words that are more frequent in high than low job approval ratings in top 25: Must, Child. Life.
+* Low job approval ratings: Country, Job, Us. 
+* Emphasizing children and communicating urgency - leads to high job approval ratings.
+* Terms associated with low job approval ratings - used to attempt to bring people together and emphasize the economy; may   negatively affect job approval ratings.
+
+
+## Next Steps
+
+* Explore previous presidents and their speech transcripts.
+* Analyze Trump’s speeches towards end of his presidency.
+* Has the pandemic affected what words are said by Trump/Biden?
+* Look at bigrams and tri-grams to see if there are specific phrases presidents use.
+* Look at other speeches given to see if there are similarities and/or differences.
+* Analyze further how party affiliation impacts job approval ratings; similarities/differences?
+* Relationship between speeches and the economy; frequency of words associated with high/low unemployment rates.
 
 
 
